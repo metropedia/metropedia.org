@@ -42,10 +42,13 @@ def write_md(file, input):
         mdfile.close()
 
 
+##############################################################################################
 # Metro Lines
+##############################################################################################
+
 output = reformat(dir_path + '/../data/metro-lines.csv')
 
-header = """# Metro Lines Data File
+header = """# Metro Line Data File
 
 
     This file contains the data we've collected for all the metro lines
@@ -54,12 +57,29 @@ header = """# Metro Lines Data File
 """
 write_md(docs_path + '/metro-lines.md', header + output)
 
+##############################################################################################
+# Metro Stations
+##############################################################################################
+
+output = reformat(dir_path + '/../data/metro-stations.csv')
+
+header = """# Metro Station Data File
 
 
+    This file contains the data we've collected for all the metro stations
+
+
+"""
+write_md(docs_path + '/metro-stations.md', header + output)
+
+##############################################################################################
 # Home
+##############################################################################################
+
 home_md_output = """# Welcome to www.metropedia.org
 
 
-[Metro Lines]({www}/metro-lines.html)
+* [Metro Lines]({www}/metro-lines.html)
+* [Metro Stations]({www}/metro-stations.html)
 """.format(www=www)
 write_md(docs_path + '/index.md', home_md_output)
