@@ -5,6 +5,7 @@ import csv
 import os 
 
 
+www = 'https://www.metropedia.org'
 dir_path = os.path.dirname(os.path.realpath(__file__))
 docs_path = dir_path + '/../docs'
 
@@ -59,6 +60,6 @@ write_md(docs_path + '/metro-lines.md', header + output)
 home_md_output = """# Welcome to www.metropedia.org
 
 
-[Metro Lines](/metro-lines.html)
-"""
+[Metro Lines]({www}/metro-lines.html)
+""".format(www=www)
 write_md(docs_path + '/index.md', home_md_output)

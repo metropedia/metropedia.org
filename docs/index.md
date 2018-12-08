@@ -1,4 +1,4 @@
 # Welcome to www.metropedia.org
 
 
-[Metro Lines](/metro-lines.html)
+[Metro Lines](https://www.metropedia.org/metro-lines.html)
