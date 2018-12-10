@@ -53,3 +53,13 @@
 | Tokyo Metro | Marunouchi Line | Myogadani | M | 23 |  |
 | Tokyo Metro | Marunouchi Line | Shin-otsuka | M | 24 |  |
 | Tokyo Metro | Marunouchi Line | Ikebukuro | M | 25 |  |
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130550808-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130550808-1');
+</script>

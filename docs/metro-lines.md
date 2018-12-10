@@ -91,3 +91,13 @@
 | Japan | Tokyo | Tokyu | Tokyu Tamagawa Line |  |  |  |  |  |  |  |
 | Japan | Tokyo | Tokyu | Toyoko Line |  |  |  |  |  |  |  |
 | Japan | Tokyo | Tokyu | Kodomonokuni |  |  |  |  |  |  |  |
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130550808-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130550808-1');
+</script>

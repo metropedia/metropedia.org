@@ -6,6 +6,18 @@ import os
 
 
 www = 'https://www.metropedia.org'
+ga = """
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130550808-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130550808-1');
+</script>
+"""
 dir_path = os.path.dirname(os.path.realpath(__file__))
 docs_path = dir_path + '/../docs'
 
@@ -55,7 +67,7 @@ header = """# Metro Line Data File
 
 
 """
-write_md(docs_path + '/metro-lines.md', header + output)
+write_md(docs_path + '/metro-lines.md', header + output + ga)
 
 ##############################################################################################
 # Metro Stations
@@ -70,7 +82,7 @@ header = """# Metro Station Data File
 
 
 """
-write_md(docs_path + '/metro-stations.md', header + output)
+write_md(docs_path + '/metro-stations.md', header + output + ga)
 
 ##############################################################################################
 # Home
@@ -82,4 +94,4 @@ home_md_output = """# Welcome to www.metropedia.org
 * [Metro Lines]({www}/metro-lines.html)
 * [Metro Stations]({www}/metro-stations.html)
 """.format(www=www)
-write_md(docs_path + '/index.md', home_md_output)
+write_md(docs_path + '/index.md', home_md_output + ga)
