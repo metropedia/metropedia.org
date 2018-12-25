@@ -14,12 +14,12 @@
 | Japan | Tokyo | Tokyo Metro | Chiyoda Line | 20 | 24 | 1,067 | 80 | rgb(112, 181, 133) | 1,447,730 | December 20, 1969 |
 | Japan | Tokyo | Tokyo Metro | Yūrakuchō Line | 24 | 28.3 | 1,067 | 80 | rgb(190, 163, 116) | 1,124,478 | October 30, 1974 |
 | Japan | Tokyo | Tokyo Metro | Hanzōmon Line | 14 | 16.8 | 1,067 | 80 | rgb(136, 129, 212) | 1,006,682 | August 1, 1978 |
-| Japan | Tokyo | Tokyo Metro | Namboku Line |  |  |  |  | rgb(100, 168, 153) |  |  |
-| Japan | Tokyo | Tokyo Metro | Fukutoshin Line |  |  |  |  | rgb(149, 97, 56) |  |  |
-| Japan | Tokyo | Toei Subway | Asakusa Line |  |  |  |  |  |  |  |
-| Japan | Tokyo | Toei Subway | Mita Line |  |  |  |  |  |  |  |
-| Japan | Tokyo | Toei Subway | Shinjuku Line |  |  |  |  |  |  |  |
-| Japan | Tokyo | Toei Subway | Ōedo Line |  |  |  |  |  |  |  |
+| Japan | Tokyo | Tokyo Metro | Namboku Line | 19 | 21.3 | 1,067 | 80 | rgb(100, 168, 153) | 522,736 | November 29, 1991 |
+| Japan | Tokyo | Tokyo Metro | Fukutoshin Line | 16 | 20.2 | 1,067 | 80 | rgb(149, 97, 56) | 363,654 | December 7, 1994 |
+| Japan | Tokyo | Toei Subway | Asakusa Line | 20 | 18.4 | 1,435 | 70 | rgb(223, 123, 108) | 669,603 | December 4, 1960 |
+| Japan | Tokyo | Toei Subway | Mita Line | 27 | 26.5 | 1,067 | 75 | rgb(38, 111, 182) | 600,570 | December 27, 1968 |
+| Japan | Tokyo | Toei Subway | Shinjuku Line | 21 | 23.5 | 1,372 | 75 | rgb(182, 186, 49) | 745,889 | December 21, 1978 |
+| Japan | Tokyo | Toei Subway | Ōedo Line | 38 | 40.7 | 1,435 | 70 | rgb(195, 85, 97) | 878,960 | December 10, 1991 |
 | Japan | Tokyo | JR East | Yamanote |  |  |  |  |  |  |  |
 | Japan | Tokyo | JR East | Keihin-Tōhoku |  |  |  |  |  |  |  |
 | Japan | Tokyo | JR East | Negishi |  |  |  |  |  |  |  |
